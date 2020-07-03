@@ -115,6 +115,7 @@
       <div class="display-type"></div>
     </div>
     @include('layout_admin.script')
+    
   </body>
 </html>
 @endsection

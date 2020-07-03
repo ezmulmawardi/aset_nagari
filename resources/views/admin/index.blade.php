@@ -142,6 +142,18 @@
       <div class="display-type"></div>
     </div>
     @include('layout_admin.script')
+    <script type="text/javascript">
+    $(document).ready(function(){
+      @if (session('statusBerhasil'))
+        Swal.fire({
+          icon: 'success',
+          title: 'Berhasil',
+          text: '{{ session('statusBerhasil') }}'
+        })
+      @endif
+      
+    })
+    </script>
   </body>
 </html>
 @endsection

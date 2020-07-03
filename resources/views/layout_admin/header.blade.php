@@ -19,6 +19,7 @@
     <link href="{!! asset('admin/bower_components/fullcalendar/dist/fullcalendar.min.css') !!}" rel="stylesheet">
     <link href="{!! asset('admin/bower_components/perfect-scrollbar/css/perfect-scrollbar.min.css') !!}" rel="stylesheet">
     <link href="{!! asset('admin/bower_components/slick-carousel/slick/slick.css') !!}" rel="stylesheet">
+    <link href="{!! asset('css/sweetalert2.min.css') !!}" rel="stylesheet">
     <link href="{!! asset('admin/css/main.css" rel="stylesheet') !!}">
   </head>
   <body class="menu-position-side menu-side-left full-screen with-content-panel">

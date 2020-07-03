@@ -20,7 +20,7 @@ class AdminController extends Controller
     	if (!empty($id)) {
     		$data = $req->all();
     		User::where(['id'=>$id])->delete();
-    		return redirect()->back();
+    		return redirect()->back()->with('statusBerhasil','Data berhasil dihapus!');
     	}
     }
 
@@ -37,7 +37,8 @@ class AdminController extends Controller
             $user->save();
 
             $users = User::where(['roll'=>'2'])->get();
-            return view('admin.index')->with(compact('users'));
+            // return view('admin.index')->with(compact('users'));
+            return redirect('/')->with('statusBerhasil','Data berhasil ditambah!');
         }else{
             return redirect()->back();
         }

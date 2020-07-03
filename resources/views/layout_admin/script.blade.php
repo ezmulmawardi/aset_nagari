@@ -27,4 +27,5 @@
     <script src="{!! asset('admin/bower_components/bootstrap/js/dist/tooltip.js') !!}"></script>
     <script src="{!! asset('admin/bower_components/bootstrap/js/dist/popover.js') !!}"></script>
     <script src="{!! asset('admin/js/demo_customizer.js?version=4.4.0') !!}"></script>
+    <script src="{!! asset('js/sweetalert2.min.js') !!}"></script>
     <script src="{!! asset('admin/js/main.js?version=4.4.0') !!}"></script>
