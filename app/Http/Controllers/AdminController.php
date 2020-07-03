@@ -40,7 +40,7 @@ class AdminController extends Controller
             // return view('admin.index')->with(compact('users'));
             return redirect('/')->with('statusBerhasil','Data berhasil ditambah!');
         }else{
-            return redirect()->back();
+            return redirect()->back()->with('statusGagal','Data gagal ditambah!');
         }
 
     }
